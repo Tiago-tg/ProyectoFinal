@@ -1,0 +1,262 @@
+*{
+
+box-sizing: border-box;
+margin:0;
+padding:
+
+}
+
+.contenedor{
+
+width:100%;
+max-width: 1170px;
+  margin:auto;
+}
+
+/* encabezado */
+
+header{
+
+width:100%;
+height:250px;
+
+}
+
+.logo{
+  padding:0px 0px;
+position: relative;
+
+}
+
+.logo img{
+
+width:200px;
+height:200px;
+margin:auto;
+display: block;
+
+}
+
+.menu{
+width: 100%;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+max-width: 380px;
+margin: auto;
+
+}
+
+.menu a{
+
+text-decoration: none;
+  color:#505160;
+  font-size: 18px;
+
+}
+
+.menu a:hover{
+  color:#474851;
+  font-size: 19px;
+
+}
+
+
+
+
+/* fin encabezado */
+
+
+/* principal */
+
+.color{
+
+width: 100%;
+height: 500px;
+background-color: #598234;
+
+}
+
+
+.banner{
+  width: 98%;
+  height: 500px;
+  background-image: url(img/cuarto1.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+
+}
+
+.sombra{
+width: 100%;
+height:100%;
+background-color: rgba(114,112,112,0.5)
+
+
+}
+
+.contenedor-principal{
+
+  text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+
+
+}
+
+.contenedor-principal h3{
+
+font-size: 38px;
+color:white;
+width: 100%;
+padding:30px;
+margin: auto;
+animation-name: moverse;
+animation-duration: 3s;
+
+}
+
+@keyframes  moverse{
+
+  0% {
+    transform: translateY(100%);
+
+  }
+
+  100% {
+
+
+  }
+}
+
+
+
+
+
+/* fin del principal */
+
+/* nosotros */
+
+.nosotros{
+padding-top: 50px;
+
+}
+
+.acomodar{
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+.imagen img{
+
+width:100%;
+max-width: 500px;
+
+}
+
+.texto{
+
+text-align: center;
+max-width: 500px;
+padding:10px;
+background-color: #b3d65a;
+}
+
+.texto h3{
+
+color:white;
+font-family: "Calisto MT";
+font-size: 25px;
+padding:10px;
+
+}
+
+.texto p{
+
+color:white;
+font-family: "Calisto MT";
+  font-size:20px;
+}
+
+
+/* fin nosotros */
+
+/* pie de pagina */
+footer{
+
+padding-top:50px;
+
+}
+
+.top-footer{
+
+background-color: #68829e;
+height: 40px;
+text-align: center;
+
+}
+
+
+.cuadro{
+
+width: 100%;
+
+}
+
+.cuadro:hover{
+
+background-color: #9eb1c6;
+
+}
+
+.top-footer h2{
+
+color:white;
+text-decoration:underline;
+font-family: "Calisto MT";
+
+}
+
+.main-footer{
+
+  background-color: #53546d;
+}
+
+
+.ajustar{
+
+width: 100%;
+
+}
+
+
+
+.bottom-footer{
+background-color: #515166;
+text-align:center;
+
+}
+.bottom-footer p{
+justify-content: center;
+color: white;
+margin:auto;
+padding-bottom: 20px;
+}
+@media(min-width:601px)  {
+   .contener{
+    display:flex;
+     justify-content:space-between;
+
+  }
+  .ajustar{
+  }
+}
+
+
+/* fin de pie de pagina */
